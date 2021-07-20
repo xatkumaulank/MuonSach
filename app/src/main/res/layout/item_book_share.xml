@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="180dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    >
+    <ImageView
+        android:id="@+id/imgv_bookshare"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"/>
+    <TextView
+        android:id="@+id/tv_bookshare_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Tu Duy Nhanh...."
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <RatingBar
+        android:id="@+id/rab_bookshare"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/Widget.AppCompat.RatingBar.Small"/>
+</LinearLayout>

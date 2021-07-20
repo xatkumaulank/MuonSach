@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:padding="10dp"
+    >
+    <ImageView
+        android:id="@+id/img_setting_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_star_24"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:id="@+id/tv_setting_function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_setting_icon"
+        android:text="Chỉnh sửa thông tin cá nhân"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"/>
+    <ImageView
+        android:id="@+id/img_setting_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_more_horiz_24"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

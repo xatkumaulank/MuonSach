@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/img_profile_pic"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_person_24"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+                   <com.airbnb.lottie.LottieAnimationView
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:layout_marginEnd="10dp"
+                       app:lottie_rawRes="@raw/name"
+                       app:lottie_autoPlay="true"
+                       app:lottie_loop="true"/>
+                   <EditText
+                       android:id="@+id/ed_fullname_register"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:hint="Nhập họ tên đầy đủ"
+                       android:padding="15dp"
+                       />
+
+               </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/your_location"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="10dp"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        android:layout_marginTop="16dp"
+                        app:lottie_rawRes="@raw/address"/>
+                    <EditText
+                        android:id="@+id/ed_addree_register"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nhập địa chỉ của bạn"
+                        android:padding="15dp"
+                        android:layout_marginTop="16dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        android:layout_marginTop="16dp"
+                        app:lottie_rawRes="@raw/email"
+                        android:layout_marginEnd="10dp"/>
+                    <EditText
+                        android:id="@+id/ed_email_register"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nhập Email"
+                        android:padding="15dp"
+                        android:layout_marginTop="16dp"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        android:layout_marginTop="16dp"
+                        app:lottie_rawRes="@raw/password"
+                        android:layout_marginEnd="10dp"/>
+                    <EditText
+                        android:id="@+id/ed_password_register"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nhập mật khẩu"
+                        android:padding="15dp"
+                        android:layout_marginTop="16dp"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="đăng ký"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/already_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đã có tài khoản? Đăng nhập"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+</layout>

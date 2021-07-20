@@ -1,0 +1,43 @@
+<resources>
+    <string name="facebook_app_id">320062669737580</string>
+    <string name="fb_login_protocol_scheme">fb320062669737580</string>
+
+    <string name="app_name">MuonSach</string>
+    <string name="dang_nhap">Login</string>
+    <string name="dang_ky">Đăng ký</string>
+    <string name="title_activity_dang_nhap">DangNhapActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="regis">Đăng ký</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Chưa có thông tin nào!</string>
+    <string name="example">Tác phẩm Muôn Kiếp Nhân Sinh tập 1 của tác giả Nguyên Phong xuất bản giữa tâm điểm của đại dịch đã thực sự tạo nên một hiện tượng xuất bản hiếm có ở Việt Nam. Cuốn sách đã khơi dậy những trực cảm tiềm ẩn của con người, làm thay đổi góc nhìn cuộc sống và thức tỉnh nhận thức của chúng ta giữa một thế giới đang ngày càng bất ổn và đầy biến động. Ngoài việc phát hành hơn 200.000 bản trong 6 tháng, chưa kể lượng phát hành Ebook và Audio Book qua Voiz-FM, First News còn nhận được hàng ngàn tin nhắn, e-mail chuyển lời cảm ơn đến tác giả Nguyên Phong. Điều này chứng tỏ sức lan tỏa của cuốn sách đã tạo nên một hiện tượng trong văn hóa đọc của năm 2020</string>
+
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        FCM registration token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="h_t_n">Họ tên</string>
+</resources>

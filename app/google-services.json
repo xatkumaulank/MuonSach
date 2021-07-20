@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "677398026931",
+    "project_id": "muonsach-a7cfc",
+    "storage_bucket": "muonsach-a7cfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677398026931:android:d04a9a3846e746efbd6ec6",
+        "android_client_info": {
+          "package_name": "com.example.muonsach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677398026931-118v1ddah6k8c8gaan44ag1r08nlksj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfve85X7DXH7VokdWl6TOr2Bu0wrGNhSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677398026931-118v1ddah6k8c8gaan44ag1r08nlksj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center">
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/imgRisingUser"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        />
+    <TextView
+        android:id="@+id/nameRisingUser"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Bui Huy Hoa"/>
+    <TextView
+        android:id="@+id/emailRisingUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+</LinearLayout>

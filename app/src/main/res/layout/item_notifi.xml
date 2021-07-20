@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="10dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgv_notifi_avt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:id="@+id/tv_notifi_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bùi Hòa"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/imgv_notifi_avt"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:id="@+id/tv_notifi_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đã gửi cho bạn yêu cầu mượn sách Mắt biếc "
+        android:textColor="@color/black"
+        android:layout_below="@id/tv_notifi_name"
+        android:layout_alignStart="@id/tv_notifi_name"/>
+    <TextView
+        android:id="@+id/tv_notifi_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 day ago"
+        android:layout_alignParentEnd="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_notifi_detail"
+
+        android:layout_toEndOf="@id/imgv_notifi_avt">
+        <TextView
+            android:id="@+id/tv_notifi_ok"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
