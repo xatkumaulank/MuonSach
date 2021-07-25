@@ -4,6 +4,15 @@ Ba bước để mượn sách:
 1. Tạo tài khoản 
 2. Chọn sách muốn mượn và tìm chủ sách gần bạn
 3. Kết nối chủ sách và mượn liền tay!
+## Các chức năng chính
+- Đăng nhập, đăng ký
+- Sử dụng Firebase lưu trữ dữ liệu
+- Tìm kiếm sách, người dùng
+- Sử dụng HereMap hiển thị vị trí người dùng
+- Thêm, sửa, xóa sách
+- Hiển thị thông tin sách và người dùng
+- Chức năng chat giúp kết nối người dùng
+- Thanh toán
 
 ## Màn hình chính
 <img src="https://user-images.githubusercontent.com/70027310/126886287-42e7eefc-d9dc-48e6-a8e5-c24b10a56b74.png" width="200" height="400" />
